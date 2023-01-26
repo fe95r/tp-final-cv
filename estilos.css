@@ -1,0 +1,116 @@
+
+header{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton{
+    border-radius: 35%;
+}
+
+header button{
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 5px;
+    border: none;
+    background: transparent;
+}
+
+header button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+body.darkmode{
+    background-color: rgb(32, 44, 35);
+    color: rgb(244, 248, 244);
+    position: relative;
+}
+
+.darkmode header{
+    background-color: rgb(27, 36, 27);
+}
+
+
+
+
+
+/**.darkmode header a{
+    color: rgb(71, 185, 26);
+}*/
+
+.darkmode button{
+    color: #F7F9F9;
+}
+
+.darkmode button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+body{
+    background-color: #ffd089;
+}
+
+
+
+h1{
+    background-color: cadetblue;
+    font-family: 'Playfair Display', serif;
+}
+
+h3{
+    font-family: 'Comfortaa', cursive;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+p, ul{
+    font-family: 'Caveat', cursive;
+}
+
+.nombre{
+    position: relative;
+    border-left: 4px solid red
+}
+
+.academica{
+    border-right: 4px solid red;
+}
+
+.complementaria{
+    border-left: 4px solid red;
+}
+
+.resto{
+    border-right: 4px solid red;
+}
+
+div{
+    background: linear-gradient(45deg, #2e86c1, #5dade2, #85c1e9, #aed6f1);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease infinite;
+}
+
+@keyframes cambiar{
+   0% {background-position: 0 50%;}
+   50% {background-position: 100% 50%;}
+   100% {background-position: 0 50%;}
+}
+
+img{
+    width: 150px; 
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 115px;
+    bottom: 0px;
+    left: 1140px;
+    margin: 20px;
+    background-color: transparent;
+    box-shadow: 10px 10px teal;
+}

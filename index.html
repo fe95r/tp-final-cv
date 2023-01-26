@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link type="text/css" rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagenes/cv.png">
+    <script src="https://kit.fontawesome.com/9b0adb90d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Fernando Rivadera</h1>
+    
+        <div class="boton">
+            <button id="bdark">modo oscuro</button>
+        </div>
+    </header>
+
+
+        <div class="nombre">
+            <p class="outset"><ins>Fecha de nacimiento:</ins> 10 de agosto 1995</p>
+            <p><ins>Lugar de nacimiento:</ins> Santo tome - santa fe</p>
+            <p><ins>Nacionalidad:</ins> argentina</p>
+            <p><ins>D.N.I.:</ins> 39125162</p>
+            <p><ins>Telefono:</ins> (0342)154459385</p>
+            <p><ins>Email:</ins> fe95r@hotmail.com</p>
+            <p><ins>Direccion:</ins> rivadavia 2785 santo tome santa fe</p>
+        </div>
+    
+        <img @example src="imagenes/IMG_20221227_185742.jpg" alt="mi foto">
+
+
+        <div class="academica">
+            <h3>Formacion academica:</h3>
+            <p>2009 _ 2013 Estudios Secundarios Completos: Bachiller en Ciencias Naturales, Colegio E.E.M. N 340 Republica del Peru _ Santo Tome</p>
+            <p>2014 _ Actualidad Estudios Universitarios: Actualmente cursando la Lic. En Kinesiologia y Fisiatria en Universidad del Gran Rosario _ Sede Santa Fe</p>
+        </div>
+
+        <div class="complementaria">
+            <h3>Formacion complementaria:</h3>
+            <ul>
+                <li>Curso de <strong>OPERADOR DE PC</strong> en el Instituto para la Formacion Empresarial y el Empleo (I.F.E.E.) _ 2018</li>
+                <li>Curso de <strong>INFORMATICA APLICADA</strong> en el Instituto para la Formacion Empresarial y el Empleo (I.F.E.E.) _ 2019</li>
+                <li>Curso de <strong>CONFIGURADOR Y REPARADOR DE PC</strong> en el Instituto para la Formacion Empresarial y el Empleo (I.F.E.E.) _ 2019</li>
+                <li>Taller de <strong>EDICION DE VIDEO</strong> en la Secretaria de Educacion y Cultura _ 2021</li>
+                <li>Vendedor de producto: <strong>MIEL, BEE FREE</strong> atencion al publico. Pagina de Instagram: @Beefree10 ; 2020 _ Actualidad</li>
+                <li>Facturacion medica de obras sociales. 2017 _ Actualidad.</li>
+                <li>Curso de <strong>DISENO Y PROGRAMACIoN WEB 1</strong> el Instituto para la Formacion Empresarial y el Empleo (I.F.E.E.) _ 2022</li>
+                <li>Curso de <strong>FOTORREALISMO Y ANIMACION 3D</strong> en el Instituto para la Formacion Empresarial y el Empleo (I.F.E.E.) _ 2022</li>
+            </ul>
+
+        </div>
+        <div class="resto">
+            <h3>Informatica:</h3>
+            <p>Pogramas especificos: photoshop nivel basico, power point, microsoft office, hojas de calculo (excel), windows</p>
+            <p>Aprendo rapido, se trabajar en equipo, buen companero</p>
+            <h3>Idiomas:</h3>
+            <p>Ingles: basico</p>
+            <h3>Otros datos:</h3>
+            <p>Carnet clase B1</p>
+            <p>Movilidad: si</p>
+            <p>Horario: full time</p>
+        </div>
+
+        <script type="text/javascript" src="script/script.js"></script>
+
+        <!--<script>
+            const bdark = document.querySelector('#bdark');
+            const body = document.querySelector('body');
+
+            load();
+
+            bdark.addEventListener('click', event =>{
+                body.classList.toggle('darkmode');
+                store(body.classList.contains('darkmode'))
+            });
+
+            function load(){
+                const darkmode = localStorage.getItem('darkmode');
+
+                if(!darkmode){
+                    store('false');
+                }else if(darkmode == 'true'){
+                    body.classList.add('darkmode');
+                }
+
+            }
+
+
+            function store(value){
+                localStorage.setItem('darkmode', value)
+
+            }
+
+        </script>--> 
+
+</body>
+</html>
